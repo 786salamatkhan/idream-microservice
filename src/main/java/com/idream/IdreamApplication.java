@@ -21,7 +21,7 @@ public class IdreamApplication {
 	public String getData() {
 		LOGGER.info("*---------- micro service calld ---------*");
 		String resp = """
-			<h1><span>G</span></h1>
+			<h1><span>Shreya Subhalagna and Shruti Sulagna</span></h1>
 			<style>
     body {
         background: green;
