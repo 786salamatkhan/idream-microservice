@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.idream</groupId>
 	<artifactId>idream-microservice</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<name>idream-microservice</name>
 	<description>idream microservice</description>
 	<properties>
@@ -22,19 +22,19 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
-	</dependencies>
-<distributionManagement>
+	<distributionManagement>
   <repository>
     <id>nexus</id>
-    <name>test-repo</name>
-    <url>http://13.127.118.45:8081/repository/test-repo/</url>
+    <name>testrepo</name>
+    <url>http://http://44.211.131.106:8081/repository/nexus/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <name>test-repo</name>
-    <url>http://13.127.118.45:8081/repository/test-repo/</url>
+    <name>testrepo</name>
+    <url>http://44.211.131.106:8081/repository/nexus/</url>
   </snapshotRepository>
 </distributionManagement>
+
 
 	<build>
 		<plugins>
