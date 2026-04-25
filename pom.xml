@@ -21,20 +21,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
-
-	<distributionManagement>
+		
+<distributionManagement>
   <repository>
     <id>nexus</id>
-    <name>testrepo</name>
+    <name>Maven</name>
     <url>http://100.27.185.15:8081/repository/Maven//</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <name>testrepo</name>
+    <name>Maven</name>
     <url>http://100.27.185.15:8081/repository/Maven/</url>
   </snapshotRepository>
 </distributionManagement>
-
+		
 	<build>
 		<plugins>
 			<plugin>
