@@ -27,14 +27,16 @@
   <repository>
     <id>nexus</id>
     <name>Maven</name>
-    <url>http://100.27.185.15:8081/repository/Maven/</url>
+    <url>http://3.110.130.231:8081/repository/Maven/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>Maven</name>
-    <url>http://100.27.185.15:8081/repository/Maven/</url>
+    <url>http://3.110.130.231:8081/repository/Maven/</url>
   </snapshotRepository>
 </distributionManagement>
+
+
 		
 	<build>
 		<plugins>
